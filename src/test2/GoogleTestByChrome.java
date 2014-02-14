@@ -1,42 +1,30 @@
-package test1;
+package test2;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 public class GoogleTestByChrome {
     private WebDriver driver;
-    private String baseUrl;
     private boolean acceptNextAlert = true;
     private final StringBuffer verificationErrors = new StringBuffer();
 
     @Before
     public void setUp() throws Exception {
-        // Chromeの場合
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-        capabilities.setCapability("chrome.binary",
-                "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome");
-        System.setProperty("webdriver.chrome.driver",
-                "/Users/yohei/usr/chromedriver-2.9/chromedriver");
-        driver = new ChromeDriver(capabilities);
-
-        baseUrl = "https://www.google.co.jp/";
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver = WebDriverFactory.getChromeDriver();
     }
 
     @Test
     public void testGoogle() throws Exception {
+        String baseUrl = "https://www.google.co.jp/";
         driver.get(baseUrl + "/");
         String browserName = ((HasCapabilities) driver).getCapabilities()
                 .getBrowserName();

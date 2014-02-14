@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886c2a2b-a89d-47f5-86e3-0fe1556d72e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test1/GoogleTestByChrome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test2/GoogleTestByChrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test2/GoogleTestByFirefox.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test2/WebDriverFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test1/GoogleTestByChrome.java" afterPath="$PROJECT_DIR$/src/test1/GoogleTestByChrome.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test1/GoogleTestByFirefox.java" afterPath="$PROJECT_DIR$/src/test1/GoogleTestByFirefox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumTestSample.iws" afterPath="$PROJECT_DIR$/SeleniumTestSample.iws" />
     </list>
     <ignored path="SeleniumTestSample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +71,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="63" selection-end="63" vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="580">
+            <state line="8" column="5" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -79,7 +83,7 @@
       <file leaf-file-name="GoogleTestByFirefox.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test1/GoogleTestByFirefox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="89" selection-start="1534" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1575">
+            <state line="18" column="31" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +91,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GoogleTestByChrome.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test2/GoogleTestByChrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.9172414" vertical-offset="98" max-vertical-offset="1545">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleTestByFirefox.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test2/GoogleTestByFirefox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="8" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GoogleTestByChrome.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test1/GoogleTestByChrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="89" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1725">
+            <state line="30" column="24" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="1725">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test2/WebDriverFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,9 +147,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/test1/GoogleTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test1/GoogleTestByFirefox.java" />
         <option value="$PROJECT_DIR$/src/test1/GoogleTestByChrome.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test2/WebDriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/test2/GoogleTestByChrome.java" />
+        <option value="$PROJECT_DIR$/src/test2/GoogleTestByFirefox.java" />
+        <option value="$PROJECT_DIR$/src/test2/AbstractGoogleTest.java" />
       </list>
     </option>
   </component>
@@ -199,6 +238,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumTestSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeleniumTestSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="test1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -244,7 +301,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test2" />
       <recent name="test1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test2" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.test1 in SeleniumTestSample">
@@ -484,11 +545,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955848" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -519,9 +580,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test1/GoogleTestByFirefox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="89" selection-start="1534" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1575">
+        <state line="18" column="31" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="1575">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test2/WebDriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -530,17 +607,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test1/GoogleTestByChrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="89" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1725">
+        <state line="30" column="24" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="1725">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/test2/GoogleTestByFirefox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="63" selection-end="63" vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="580">
+        <state line="26" column="8" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test2/GoogleTestByChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.9172414" vertical-offset="98" max-vertical-offset="1545">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
